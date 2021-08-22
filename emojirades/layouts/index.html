@@ -1,0 +1,6 @@
+{{ define "main" }}
+	{{ partial "banner" site.Data.intro }}
+	{{ partial "customspotlight" site.Data.rules }}
+	{{ partial "customspotlight" site.Data.install }}
+	{{ partial "template/footer" . }}
+{{ end }}

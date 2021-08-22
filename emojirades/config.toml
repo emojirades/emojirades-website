@@ -1,0 +1,25 @@
+## -----------------------------------------------
+## Basic Configuration
+## -----------------------------------------------
+
+title = "Emojirades"
+theme = "hugo-story"
+
+## -----------------------------------------------
+## Hugo Built-in Features
+## -----------------------------------------------
+
+disableKinds = ["taxonomy", "taxonomyTerm", "section"]
+
+## -----------------------------------------------
+## Site Parameters
+## -----------------------------------------------
+
+[Params]
+  description = "A game for timewasters"
+  logo = "images/banner.jpg"
+  favicon = true
+
+[Params.social]
+  github = "https://github.com/emojirades/"
+  email = "support@emojirades.io"

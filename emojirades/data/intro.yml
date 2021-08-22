@@ -1,0 +1,11 @@
+####################### Intro #########################
+style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
+title: "Emojirades"
+subtitle: |
+  Like charades, but with emojis
+content: |
+  One person writes a set of emojis and everyone else attempts to guess what they mean!
+button:
+  label: "Game Rules"
+  link: "#rules"
+image: "images/intro.jpg"

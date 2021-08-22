@@ -1,0 +1,13 @@
+####################### CustomSpotlight #########################
+style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+id: "rules"
+title: "How the game works"
+content: |
+  <p>The first player chooses a short, well known phrase (like a movie title, or a famous person's name), and sends that as a direct message to the second player.</p>
+  <p>In the main channel, the second player must attempt to convey that phrase using only emoji and punctuation which can be typed on a standard keyboard. (No alphanumeric characters, extended UTF, or ascii art.)</p>
+  <p>Other players may then attempt to guess. When a player has correctly guessed, the bot will detect and award the win by giving the player a point.</p>
+  <p>The second player will then think up a new phrase and sent it to the winner, who will then repeat the process.</p>
+button: 
+  label: "Install"
+  link: "#install"
+image: "images/rules.jpg"

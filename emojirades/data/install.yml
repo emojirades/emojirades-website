@@ -1,0 +1,27 @@
+####################### CustomSpotlight #########################
+style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
+id: "install"
+title : "Install to Slack"
+content: |
+  <p>
+    Add the Emojirades bot to your Slack team today!
+    <br>
+    <a href="https://slack.com/oauth/authorize?client_id=146730946626.330031123591&scope=bot"><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcSet="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a>
+  </p>
+  <p>
+    After adding the bot to your workspace, just create an '#emojirades' channel and invite the bot in!
+    <br>
+    From there you can assign an admin or two, and kick off a round:
+    <br>
+    <code>
+      @emojirades new game @player1 @player2
+    </code>
+    <br>
+    <br>
+    You can at any time ask the bot for a list of commands:
+    <br>
+    <code>
+      @emojirades help
+    </code>
+  </p>
+image: "images/install.jpg"
